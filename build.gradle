@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 buildscript {
+
     repositories {
         google()
         mavenCentral()
@@ -34,5 +35,6 @@ allprojects {
     }
     group = 'com.google.android.exoplayer'
 }
+
 
 apply from: 'javadoc_combined.gradle'
